@@ -45,7 +45,7 @@ int main() {
     std::cout << OK << "Windows is above: 10!" << std::endl;
 
     // check notepad version
-    if (isNotepadVersion() <= 12265185) {
+    if (isNotepadVersion() < 12265185) {
         std::cout << ERR << "Notepad version: Old!" << std::endl;
         std::exit(0);
     }
