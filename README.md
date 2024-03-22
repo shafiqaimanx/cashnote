@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/made%20with-c++-teal?style=flat&logo=go&logoColor=white&labelColor=595959&color=e6e6e6"/>
+    <img src="https://img.shields.io/badge/made%20with-c++-teal?style=flat&logo=cplusplus&logoColor=white&labelColor=595959&color=e6e6e6"/>
 </p>
 
 <p align="center">
