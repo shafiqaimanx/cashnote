@@ -16,7 +16,6 @@
 #include "src/head/findextensionfiles_collect.h"
 
 // g++ -o cashnote.exe cashnote.cpp src/func/*.cpp -static -s -lversion -lz -lbz2 -lz -lbz2 -lminizip -L "C:\msys64\mingw64\lib" -lz -lbz2
-// upx --ultra-brute hello.exe
 
 // ANSI escape code for colors
 #define RED "\x1b[31m"
@@ -32,6 +31,12 @@ int main() {
     std::string zipRandomName = genRandomChar(15) + ".zip";
     bool condition = false;
 
+    // Rectangles
+    std::cout << " _____ _____ _____ _____ _____ _____ _____ _____ " << std::endl;
+    std::cout << "|     |  _  |   __|  |  |   | |     |_   _|   __|" << std::endl;
+    std::cout << "|   --|     |__   |     | | | |  |  | | | |   __|" << std::endl;
+    std::cout << "|_____|__|__|_____|__|__|_|___|_____| |_| |_____|" << std::endl;
+                                                     
     // check Windows version
     if (!isWindowsVersion10()) {
         std::cout << ERR << "Windows is below: 10!" << std::endl;
@@ -40,7 +45,7 @@ int main() {
     std::cout << OK << "Windows is above: 10!" << std::endl;
 
     // check notepad version
-    if (isNotepadVersion() < 12264606) {
+    if (isNotepadVersion() <= 12265185) {
         std::cout << ERR << "Notepad version: Old!" << std::endl;
         std::exit(0);
     }
@@ -109,26 +114,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// bool pop() {
-//     //std::cout << IsWindows10OrGreater() << std::endl;
-//     return IsWindows10OrGreater();
-// }
