@@ -20,7 +20,7 @@ Casnote is an executable binary designed for extracting any Notepad cache in Win
 ###### Prebuilt release right [here](https://github.com/shafiqaimanx/cashnote/releases)!
 
 ## 💰 Cashnote Usages
-<img src="https://github.com/shafiqaimanx/shellvenom/blob/main/img/cashnote_usage.png"/>
+<img src="https://github.com/shafiqaimanx/cashnote/blob/main/img/cashnote_usage.png"/>
 
 ## ©️ License
 Everything is licensed under [MIT](https://raw.githubusercontent.com/shafiqaimanx/cashnote/main/LICENSE) except for a certain part.
